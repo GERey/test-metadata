@@ -1,5 +1,5 @@
 version: 2
-debug: true
+
 jobs:
  build:
     working_directory: ~/pixelgroup-home
