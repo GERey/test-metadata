@@ -1,4 +1,6 @@
-  test:
+version: 2
+jobs:
+ test:
     working_directory: ~/pixelgroup-home
     docker:
        - image: gerey/saasdemo-docker-image:latest
