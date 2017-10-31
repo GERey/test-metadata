@@ -1,0 +1,9 @@
+  test:
+    working_directory: ~/pixelgroup-home
+    docker:
+       - image: gerey/saasdemo-docker-image:latest
+
+    steps:
+      - checkout
+      - store_test_results:
+          path: test-reports/
